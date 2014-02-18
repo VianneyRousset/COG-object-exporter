@@ -131,3 +131,24 @@ void Mesh::printFaces()
 		<< this->faces[i+7] << '-'
 		<< this->faces[i+8] << "] " << endl;
 }
+
+template<typename T>
+void Mesh::writeBlock(std::ofstream& file, std::vector<T>& vector)
+{
+	unsigned int size = vector.size();
+	file.write(reinterpret_cast<char*>(&size), sizeof(unsigned int));
+
+	file.write(reinterpret_cast<char*>(vector.data()),
+			sizeof(T) * vector.size());
+}
+
+void Mesh::serialize(string&& path)
+{
+	std::ofstream file;
+	file.open(path);
+
+	writeBlock(file, this->vertices);
+	writeBlock(file, this->uvVertices);
+	writeBlock(file, this->normals);
+	writeBlock(file, this->faces);
+}

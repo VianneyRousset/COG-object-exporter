@@ -11,5 +11,6 @@ int main (int argc, const char * argv[])
 	mesh.printUvVertices();
 	mesh.printNormal();
 	mesh.printFaces();
+	mesh.serialize("ressources/cube.mesh");
     return EXIT_SUCCESS;
 }

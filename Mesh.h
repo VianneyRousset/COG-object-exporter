@@ -20,10 +20,12 @@ private:
 	vector<float> vertices;
 	vector<float> uvVertices;
 	vector<float> normals;
-	vector<int>   faces;
+	vector<unsigned int>   faces;
 
 	float* fvertices, fuvVertices, ffaces, fnormals;
 
+	template<typename T>
+	static void writeBlock(std::ofstream& file, std::vector<T>& vector);
 public:
 
 	Mesh();
@@ -36,4 +38,6 @@ public:
 	void printUvVertices();
 	void printNormal();
 	void printFaces();
+
+	void serialize(string&& path);
 };
