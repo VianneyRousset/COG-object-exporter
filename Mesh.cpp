@@ -1,5 +1,8 @@
 #include "Mesh.h"
 
+#include <map>
+#include <array>
+
 using namespace std;
 
 Mesh::Mesh()
@@ -21,9 +24,10 @@ bool Mesh::loadObjFile(string path)
 	}
 	
 	std::string word = "#";
-			float coordinate;
-		int face;
-		char c;
+	float coordinate;
+	int face;
+	char c;
+
 	do {
 
 		file >> word;
@@ -132,6 +136,60 @@ void Mesh::printFaces()
 		<< this->faces[i+8] << "] " << endl;
 }
 
+void Mesh::index()
+{
+	// verticle,vertice texture, normal => index
+	std::map<std::array<float,8>,unsigned int> map;
+	std::vector<unsigned int> indexedFaces;
+
+	for(auto i = this->faces.begin(); i != this->faces.end(); i+=3) {
+
+#ifdef __APPLE__
+		std::array<float,8> point =
+#else
+		std::array<float,8> point {
+#endif
+			{this->vertices[(*(i + 0) - 1) * 3 + 0],
+			 this->vertices[(*(i + 0) - 1) * 3 + 1],
+			 this->vertices[(*(i + 0) - 1) * 3 + 2],
+			 this->uvVertices[(*(i + 1) - 1) * 2 + 0],
+			 this->uvVertices[(*(i + 1) - 1) * 2 + 1],
+			 this->normals[(*(i + 2) - 1) * 3 + 0],
+			 this->normals[(*(i + 2) - 1) * 3 + 1],
+			 this->normals[(*(i + 2) - 1) * 3 + 2]}
+#ifdef __APPLE__
+			;
+#else
+			};
+#endif
+		if(!map.count(point))
+			map[point] = map.size();
+
+		indexedFaces.push_back(map[point]);
+	}
+
+	this->vertices.clear();
+	this->uvVertices.clear();
+	this->normals.clear();
+	this->vertices.resize(map.size() * 3);
+	this->uvVertices.resize(map.size() * 2);
+	this->normals.resize(map.size() * 3);
+
+	for(auto i = map.begin(); i != map.end(); i++) {
+		vertices[i->second * 3 + 0] = i->first[0];
+		vertices[i->second * 3 + 1] = i->first[1];
+		vertices[i->second * 3 + 2] = i->first[2];
+		uvVertices[i->second * 2 + 0] = i->first[3];
+		uvVertices[i->second * 2 + 1] = i->first[4];
+		normals[i->second * 3 + 0] = i->first[5];
+		normals[i->second * 3 + 1] = i->first[6];
+		normals[i->second * 3 + 2] = i->first[7];
+	}
+
+	this->faces.clear();
+	this->faces = indexedFaces;
+}
+
 template<typename T>
 void Mesh::writeBlock(std::ofstream& file, std::vector<T>& vector)
 {
@@ -151,4 +209,6 @@ void Mesh::serialize(string&& path)
 	writeBlock(file, this->uvVertices);
 	writeBlock(file, this->normals);
 	writeBlock(file, this->faces);
+
+	file.close();
 }

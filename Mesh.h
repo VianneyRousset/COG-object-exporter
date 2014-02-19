@@ -39,5 +39,7 @@ public:
 	void printNormal();
 	void printFaces();
 
+	void index();
+
 	void serialize(string&& path);
 };
