@@ -139,7 +139,7 @@ void Mesh::printFaces()
 void Mesh::index()
 {
 	// verticle,vertice texture, normal => index
-	std::map<std::array<float,8>,unsigned int> map;
+	std::map<std::array<float,8>,size_t> map;
 	std::vector<unsigned int> indexedFaces;
 
 	for(auto i = this->faces.begin(); i != this->faces.end(); i+=3) {
@@ -194,6 +194,7 @@ template<typename T>
 void Mesh::writeBlock(std::ofstream& file, std::vector<T>& vector)
 {
 	unsigned int size = vector.size();
+		
 	file.write(reinterpret_cast<char*>(&size), sizeof(unsigned int));
 
 	file.write(reinterpret_cast<char*>(vector.data()),

@@ -1,0 +1,119 @@
+TCOG-object-exporter
+v4
+r1
+cCheck dependencies
+cCompileC DerivedData/COG-object-exporter/Build/Intermediates/COG-object-exporter.build/Debug/COG-object-exporter.build/Objects-normal/x86_64/main.o /Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/COG-object-exporter/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/COG-object-exporter/Build/Intermediates/COG-object-exporter.build/Debug/COG-object-exporter.build/Objects-normal/x86_64/Mesh.o /Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/COG-object-exporter/../../Mesh.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Developer/SDKs/MacOSX10.7.sdk
+c000000004E7AD70B00000000000000EE
+t1316673291
+s238
+
+N/Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/COG-object-exporter/../../Mesh.cpp
+c0000000053ADDC9B000000000000132C
+t1403903131
+s4908
+
+N/Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/COG-object-exporter/Material.cpp
+c0000000053B650C000000000000000F4
+t1404457152
+s244
+
+N/Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/COG-object-exporter/main.cpp
+c0000000053B64F12000000000000019F
+t1404456722
+s415
+
+N/Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/DerivedData/COG-object-exporter/Build/Intermediates/COG-object-exporter.build/Debug/COG-object-exporter.build/Objects-normal/x86_64/COG-object-exporter.LinkFileList
+c0000000053CFC59F000000000000025C
+t1406125471
+s604
+
+N/Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/DerivedData/COG-object-exporter/Build/Intermediates/COG-object-exporter.build/Debug/COG-object-exporter.build/Objects-normal/x86_64/Material.o
+t2
+s0
+
+N/Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/DerivedData/COG-object-exporter/Build/Intermediates/COG-object-exporter.build/Debug/COG-object-exporter.build/Objects-normal/x86_64/Mesh.o
+t2
+s0
+
+N/Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/DerivedData/COG-object-exporter/Build/Intermediates/COG-object-exporter.build/Debug/COG-object-exporter.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/DerivedData/COG-object-exporter/Build/Products/Debug/COG-object-exporter
+t2
+s0
+
+CBuild AST from /Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/COG-object-exporter/../../Mesh.cpp
+r0
+
+CBuild AST from /Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/COG-object-exporter/Material.cpp
+r0
+
+CBuild AST from /Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/COG-object-exporter/main.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies1f2bdc1ffd7fb941^4e63e31ffd7fb941^---0#1#0#--18"Check dependencies36"54DE0F4D-C049-4194-A1B2-D97F9AD1A359-
+
+CCompileC DerivedData/COG-object-exporter/Build/Intermediates/COG-object-exporter.build/Debug/COG-object-exporter.build/Objects-normal/x86_64/Material.o /Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/COG-object-exporter/Material.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/COG-object-exporter/Build/Intermediates/COG-object-exporter.build/Debug/COG-object-exporter.build/Objects-normal/x86_64/Mesh.o /Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/COG-object-exporter/../../Mesh.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s427818271.887394
+e427818275.397128
+r1
+xCompileC
+xDerivedData/COG-object-exporter/Build/Intermediates/COG-object-exporter.build/Debug/COG-object-exporter.build/Objects-normal/x86_64/Mesh.o
+x/Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/COG-object-exporter/../../Mesh.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/COG-object-exporter/../../Mesh.cpp:168:26:{168:26-168:36}{168:3-168:15}: warning: implicit conversion loses integer precision: 'mapped_type' (aka 'unsigned long') to 'value_type' (aka 'unsigned int') [-Wshorten-64-to-32,3]
+o                 indexedFaces.push_back(map[point]);
+o                 ~~~~~~~~~~~~           ^~~~~~~~~~
+o/Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/COG-object-exporter/../../Mesh.cpp:196:22:{196:22-196:35}{196:15-196:19}: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'unsigned int' [-Wshorten-64-to-32,3]
+o         unsigned int size = vector.size();
+o                      ~~~~   ^~~~~~~~~~~~~
+o/Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/COG-object-exporter/../../Mesh.cpp:208:2: note: in instantiation of function template specialization 'Mesh::writeBlock<float>' requested here [3]
+o         writeBlock(file, this->vertices);
+o         ^
+o/Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/COG-object-exporter/../../Mesh.cpp:196:22:{196:22-196:35}{196:15-196:19}: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'unsigned int' [-Wshorten-64-to-32,3]
+o         unsigned int size = vector.size();
+o                      ~~~~   ^~~~~~~~~~~~~
+o/Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/COG-object-exporter/../../Mesh.cpp:211:2: note: in instantiation of function template specialization 'Mesh::writeBlock<unsigned int>' requested here [3]
+o         writeBlock(file, this->faces);
+o         ^
+o3 warnings generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/COG-object-exporter/../../Mesh.cppc344e31ffd7fb941^71aa6523fd7fb941^-1638"/Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/COG-object-exporter/../../Mesh.cpp:168:26:{168:26-168:36}{168:3-168:15}: warning: implicit conversion loses integer precision: 'mapped_type' (aka 'unsigned long') to 'value_type' (aka 'unsigned int') [-Wshorten-64-to-32,3]                 indexedFaces.push_back(map[point]);                 ~~~~~~~~~~~~           ^~~~~~~~~~/Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/COG-object-exporter/../../Mesh.cpp:196:22:{196:22-196:35}{196:15-196:19}: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'unsigned int' [-Wshorten-64-to-32,3]         unsigned int size = vector.size();                      ~~~~   ^~~~~~~~~~~~~/Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/COG-object-exporter/../../Mesh.cpp:208:2: note: in instantiation of function template specialization 'Mesh::writeBlock<float>' requested here [3]         writeBlock(file, this->vertices);         ^/Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/COG-object-exporter/../../Mesh.cpp:196:22:{196:22-196:35}{196:15-196:19}: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'unsigned int' [-Wshorten-64-to-32,3]         unsigned int size = vector.size();                      ~~~~   ^~~~~~~~~~~~~/Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/COG-object-exporter/../../Mesh.cpp:211:2: note: in instantiation of function template specialization 'Mesh::writeBlock<unsigned int>' requested here [3]         writeBlock(file, this->faces);         ^3 warnings generated.3(21%IDEActivityLogMessage2@117"Implicit conversion loses integer precision: 'mapped_type' (aka 'unsigned long') to 'value_type' (aka 'unsigned int')58"Implicit conversion loses integer precision: 'mapped_type'427818274#0#284#-1#-23%DVTTextDocumentLocation3@65"file://localhost/Users/Vianney/Xcode/COG-object-exporter/Mesh.cpp0000000000000000^167#25#167#25#18446744073709551615#0#14"Semantic Issue2(3@65"file://localhost/Users/Vianney/Xcode/COG-object-exporter/Mesh.cpp0000000000000000^167#25#167#35#18446744073709551615#0#3@65"file://localhost/Users/Vianney/Xcode/COG-object-exporter/Mesh.cpp0000000000000000^167#2#167#14#18446744073709551615#0#-2@96"Implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'unsigned int'56"Implicit conversion loses integer precision: 'size_type'427818274#388#264#1(2@93"In instantiation of function template specialization 'Mesh::writeBlock<float>' requested here-427818274#739#207#-0#-3@65"file://localhost/Users/Vianney/Xcode/COG-object-exporter/Mesh.cpp0000000000000000^207#1#207#1#18446744073709551615#0#14"Semantic Issue--1#-3@65"file://localhost/Users/Vianney/Xcode/COG-object-exporter/Mesh.cpp0000000000000000^195#21#195#21#18446744073709551615#0#14"Semantic Issue2(3@65"file://localhost/Users/Vianney/Xcode/COG-object-exporter/Mesh.cpp0000000000000000^195#21#195#34#18446744073709551615#0#3@65"file://localhost/Users/Vianney/Xcode/COG-object-exporter/Mesh.cpp0000000000000000^195#14#195#18#18446744073709551615#0#-2@96"Implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'unsigned int'56"Implicit conversion loses integer precision: 'size_type'427818274#1000#264#1(2@100"In instantiation of function template specialization 'Mesh::writeBlock<unsigned int>' requested here-427818274#1351#214#-0#-3@65"file://localhost/Users/Vianney/Xcode/COG-object-exporter/Mesh.cpp0000000000000000^210#1#210#1#18446744073709551615#0#14"Semantic Issue--1#-3@65"file://localhost/Users/Vianney/Xcode/COG-object-exporter/Mesh.cpp0000000000000000^195#21#195#21#18446744073709551615#0#14"Semantic Issue2(3@65"file://localhost/Users/Vianney/Xcode/COG-object-exporter/Mesh.cpp0000000000000000^195#21#195#34#18446744073709551615#0#3@65"file://localhost/Users/Vianney/Xcode/COG-object-exporter/Mesh.cpp0000000000000000^195#14#195#18#18446744073709551615#0#-0#0#0#-19%DVTDocumentLocation4@111"file://localhost/Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/COG-object-exporter/../../Mesh.cpp0000000000000000^2899"CompileC DerivedData/COG-object-exporter/Build/Intermediates/COG-object-exporter.build/Debug/COG-object-exporter.build/Objects-normal/x86_64/Mesh.o COG-object-exporter/../../Mesh.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c++0x -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/DerivedData/COG-object-exporter/Build/Intermediates/COG-object-exporter.build/Debug/COG-object-exporter.build/COG-object-exporter-generated-files.hmap -I/Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/DerivedData/COG-object-exporter/Build/Intermediates/COG-object-exporter.build/Debug/COG-object-exporter.build/COG-object-exporter-own-target-headers.hmap -I/Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/DerivedData/COG-object-exporter/Build/Intermediates/COG-object-exporter.build/Debug/COG-object-exporter.build/COG-object-exporter-all-target-headers.hmap -iquote /Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/DerivedData/COG-object-exporter/Build/Intermediates/COG-object-exporter.build/Debug/COG-object-exporter.build/COG-object-exporter-project-headers.hmap -I/Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/DerivedData/COG-object-exporter/Build/Products/Debug/include -I/Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/DerivedData/COG-object-exporter/Build/Intermediates/COG-object-exporter.build/Debug/COG-object-exporter.build/DerivedSources/x86_64 -I/Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/DerivedData/COG-object-exporter/Build/Intermediates/COG-object-exporter.build/Debug/COG-object-exporter.build/DerivedSources -F/Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/DerivedData/COG-object-exporter/Build/Products/Debug -MMD -MT dependencies -MF /Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/DerivedData/COG-object-exporter/Build/Intermediates/COG-object-exporter.build/Debug/COG-object-exporter.build/Objects-normal/x86_64/Mesh.d -c /Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/COG-object-exporter/../../Mesh.cpp -o /Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/DerivedData/COG-object-exporter/Build/Intermediates/COG-object-exporter.build/Debug/COG-object-exporter.build/Objects-normal/x86_64/Mesh.o36"096DF147-DC0F-4117-B796-47737952228B-
+
+CCompileC DerivedData/COG-object-exporter/Build/Intermediates/COG-object-exporter.build/Debug/COG-object-exporter.build/Objects-normal/x86_64/main.o /Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/COG-object-exporter/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s427818271.886424
+e427818273.980476
+r0
+xCompileC
+xDerivedData/COG-object-exporter/Build/Intermediates/COG-object-exporter.build/Debug/COG-object-exporter.build/Objects-normal/x86_64/main.o
+x/Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/COG-object-exporter/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/COG-object-exporter/main.cpp:9:11: error: no matching constructor for initialization of 'Material' [3]
+o         Material diffuse;
+o                  ^
+o/Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/COG-object-exporter/Material.h:37:9: note: candidate constructor not viable: requires 1 argument, but 0 were provided [3]
+o         Material(const std::string& mtlPath);
+o         ^
+o/Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/COG-object-exporter/Material.h:6:7: note: candidate constructor (the implicit copy constructor) not viable: requires 1 argument, but 0 were provided [3]
+o class Material {
+o       ^
+o1 error generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/COG-object-exporter/main.cppbb0ce31ffd7fb941^28f0fa21fd7fb941^-712"/Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/COG-object-exporter/main.cpp:9:11: error: no matching constructor for initialization of 'Material' [3]         Material diffuse;                  ^/Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/COG-object-exporter/Material.h:37:9: note: candidate constructor not viable: requires 1 argument, but 0 were provided [3]         Material(const std::string& mtlPath);         ^/Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/COG-object-exporter/Material.h:6:7: note: candidate constructor (the implicit copy constructor) not viable: requires 1 argument, but 0 were provided [3] class Material {       ^1 error generated.1(21%IDEActivityLogMessage2@56"No matching constructor for initialization of 'Material'-427818273#0#164#2(2@74"Candidate constructor not viable: requires 1 argument, but 0 were provided-427818273#211#183#-0#-23%DVTTextDocumentLocation3@107"file://localhost/Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/COG-object-exporter/Material.h0000000000000000^36#8#36#8#18446744073709551615#0#14"Semantic Issue--2@106"Candidate constructor (the implicit copy constructor) not viable: requires 1 argument, but 0 were provided21"Candidate constructor427818273#452#214#-0#-3@107"file://localhost/Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/COG-object-exporter/Material.h0000000000000000^5#6#5#6#18446744073709551615#0#14"Semantic Issue--2#-3@105"file://localhost/Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/COG-object-exporter/main.cpp0000000000000000^8#10#8#10#18446744073709551615#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@105"file://localhost/Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/COG-object-exporter/main.cpp0000000000000000^2887"CompileC DerivedData/COG-object-exporter/Build/Intermediates/COG-object-exporter.build/Debug/COG-object-exporter.build/Objects-normal/x86_64/main.o COG-object-exporter/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c++0x -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/DerivedData/COG-object-exporter/Build/Intermediates/COG-object-exporter.build/Debug/COG-object-exporter.build/COG-object-exporter-generated-files.hmap -I/Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/DerivedData/COG-object-exporter/Build/Intermediates/COG-object-exporter.build/Debug/COG-object-exporter.build/COG-object-exporter-own-target-headers.hmap -I/Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/DerivedData/COG-object-exporter/Build/Intermediates/COG-object-exporter.build/Debug/COG-object-exporter.build/COG-object-exporter-all-target-headers.hmap -iquote /Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/DerivedData/COG-object-exporter/Build/Intermediates/COG-object-exporter.build/Debug/COG-object-exporter.build/COG-object-exporter-project-headers.hmap -I/Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/DerivedData/COG-object-exporter/Build/Products/Debug/include -I/Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/DerivedData/COG-object-exporter/Build/Intermediates/COG-object-exporter.build/Debug/COG-object-exporter.build/DerivedSources/x86_64 -I/Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/DerivedData/COG-object-exporter/Build/Intermediates/COG-object-exporter.build/Debug/COG-object-exporter.build/DerivedSources -F/Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/DerivedData/COG-object-exporter/Build/Products/Debug -MMD -MT dependencies -MF /Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/DerivedData/COG-object-exporter/Build/Intermediates/COG-object-exporter.build/Debug/COG-object-exporter.build/Objects-normal/x86_64/main.d -c /Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/COG-object-exporter/main.cpp -o /Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/DerivedData/COG-object-exporter/Build/Intermediates/COG-object-exporter.build/Debug/COG-object-exporter.build/Objects-normal/x86_64/main.o36"0753C96E-E60D-4274-8EC1-331450DAAE30-
+
+CLd /Users/Vianney/Xcode/COG-object-exporter/COG-object-exporter/DerivedData/COG-object-exporter/Build/Products/Debug/COG-object-exporter normal x86_64
+r0
+

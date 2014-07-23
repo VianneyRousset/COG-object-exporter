@@ -1,0 +1,228 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C241E341966850C001952E6 /* Material.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C241E331966850C001952E6 /* Material.cpp */; };
+		4C8BC913195E029B00C283FE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C8BC912195E029B00C283FE /* main.cpp */; };
+		4C8BC915195E029B00C283FE /* COG_object_exporter.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4C8BC914195E029B00C283FE /* COG_object_exporter.1 */; };
+		4C8BC91D195E02AD00C283FE /* Mesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C8BC91B195E02AD00C283FE /* Mesh.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4C8BC90C195E029A00C283FE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				4C8BC915195E029B00C283FE /* COG_object_exporter.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4C241E3119668504001952E6 /* Material.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Material.h; sourceTree = "<group>"; };
+		4C241E331966850C001952E6 /* Material.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Material.cpp; sourceTree = "<group>"; };
+		4C8BC90E195E029A00C283FE /* COG-object-exporter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "COG-object-exporter"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C8BC912195E029B00C283FE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4C8BC914195E029B00C283FE /* COG_object_exporter.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = COG_object_exporter.1; sourceTree = "<group>"; };
+		4C8BC91B195E02AD00C283FE /* Mesh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Mesh.cpp; path = ../../Mesh.cpp; sourceTree = "<group>"; };
+		4C8BC91C195E02AD00C283FE /* Mesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Mesh.h; path = ../../Mesh.h; sourceTree = "<group>"; };
+		4CCC6E2819801DE600856F7F /* test.mbf */ = {isa = PBXFileReference; lastKnownFileType = file; name = test.mbf; path = ../ressources/test.mbf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C8BC90B195E029A00C283FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C8BC903195E029A00C283FE = {
+			isa = PBXGroup;
+			children = (
+				4C8BC911195E029A00C283FE /* COG-object-exporter */,
+				4C8BC90F195E029A00C283FE /* Products */,
+				4CCC6E2819801DE600856F7F /* test.mbf */,
+			);
+			sourceTree = "<group>";
+		};
+		4C8BC90F195E029A00C283FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C8BC90E195E029A00C283FE /* COG-object-exporter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C8BC911195E029A00C283FE /* COG-object-exporter */ = {
+			isa = PBXGroup;
+			children = (
+				4C8BC912195E029B00C283FE /* main.cpp */,
+				4C241E3119668504001952E6 /* Material.h */,
+				4C241E331966850C001952E6 /* Material.cpp */,
+				4C8BC91C195E02AD00C283FE /* Mesh.h */,
+				4C8BC91B195E02AD00C283FE /* Mesh.cpp */,
+				4C8BC914195E029B00C283FE /* COG_object_exporter.1 */,
+			);
+			path = "COG-object-exporter";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C8BC90D195E029A00C283FE /* COG-object-exporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C8BC918195E029B00C283FE /* Build configuration list for PBXNativeTarget "COG-object-exporter" */;
+			buildPhases = (
+				4C8BC90A195E029A00C283FE /* Sources */,
+				4C8BC90B195E029A00C283FE /* Frameworks */,
+				4C8BC90C195E029A00C283FE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "COG-object-exporter";
+			productName = "COG-object-exporter";
+			productReference = 4C8BC90E195E029A00C283FE /* COG-object-exporter */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C8BC905195E029A00C283FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = EPFL;
+			};
+			buildConfigurationList = 4C8BC908195E029A00C283FE /* Build configuration list for PBXProject "COG-object-exporter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4C8BC903195E029A00C283FE;
+			productRefGroup = 4C8BC90F195E029A00C283FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C8BC90D195E029A00C283FE /* COG-object-exporter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C8BC90A195E029A00C283FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C8BC913195E029B00C283FE /* main.cpp in Sources */,
+				4C8BC91D195E02AD00C283FE /* Mesh.cpp in Sources */,
+				4C241E341966850C001952E6 /* Material.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4C8BC916195E029B00C283FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4C8BC917195E029B00C283FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4C8BC919195E029B00C283FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4C8BC91A195E029B00C283FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C8BC908195E029A00C283FE /* Build configuration list for PBXProject "COG-object-exporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C8BC916195E029B00C283FE /* Debug */,
+				4C8BC917195E029B00C283FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C8BC918195E029B00C283FE /* Build configuration list for PBXNativeTarget "COG-object-exporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C8BC919195E029B00C283FE /* Debug */,
+				4C8BC91A195E029B00C283FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C8BC905195E029A00C283FE /* Project object */;
+}
